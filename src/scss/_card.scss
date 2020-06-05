@@ -1,0 +1,44 @@
+
+$primary-color: #222;
+$secondary-color: #bbb;
+
+.scuffed-chart{
+	margin-top: 50px;
+
+	h4{
+		color: $secondary-color;
+		font-weight: 500;
+	}
+	li {
+		color: $secondary-color;
+		list-style-type: none;
+	}
+	hr{
+		border-color: $secondary-color;
+	}
+	
+	
+}
+
+.ranking-container {
+	#post-img{
+		width: 132px;
+		height: auto;
+	}
+	.post{
+		justify-content: center;
+	}
+	.post-ranking{
+		color: $secondary-color;
+		font-size: 4rem;
+		margin-left: .9rem;
+	}
+	.post-link{
+		text-decoration: none;
+		color:$secondary-color;
+		font-weight: bold;
+	}
+	.post-desc {
+		color: white
+	}
+}

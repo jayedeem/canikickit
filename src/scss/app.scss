@@ -1,0 +1,40 @@
+
+@import 'scuffed';
+@import 'card';
+@import 'rankedbrands';
+
+
+$primary-color: #222;
+$secondary-color: #bbb;
+
+body{
+    background-color: $primary-color;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    border-bottom: $secondary-color solid .5px;
+    background-color: $primary-color;
+    .navbar-brand {
+        font-weight: bold;
+        line-height: 1.3rem;
+        color: $secondary-color;
+        font-size: 30px;
+    }
+    a{
+        color: $secondary-color
+    }
+    a:hover {
+        color: yellow;
+    }
+    .navbar-toggler-icon{
+        color: white;
+    }
+    li{
+        margin-top: .1rem;
+    }
+}
+
+// .override{
+// background: $secondary-color;
+// }
+
