@@ -1,1 +1,1 @@
-# Copying Hypebeast site to learn html/css
+# Can I Kick it?
