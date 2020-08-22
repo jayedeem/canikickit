@@ -1,26 +1,18 @@
 {
-  "name": "vanilla-parcel-boilerplate",
+  "name": "can-i-kick-it",
   "version": "1.0.0",
-  "description": "Simple workflow starter for building vanilla JS apps",
+  "description": "shoes",
   "main": "index.js",
   "scripts": {
-    "dev": "npm run clean && parcel public/index.html --out-dir development -p 3000",
+    "dev": "npm run clean && parcel public/*.html --out-dir development -p 3000",
     "build": "parcel build public/index.html --out-dir dist --public-url ./",
     "clean": "rimraf ./development && rimraf -rf ./.cache"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bradtraversy/vanilla-parcel-boilerplate.git"
   },
   "keywords": [
     "parcel"
   ],
-  "author": "Brad Traversy",
+  "author": "Andrew Cacayuran",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bradtraversy/vanilla-parcel-boilerplate/issues"
-  },
-  "homepage": "https://github.com/bradtraversy/vanilla-parcel-boilerplate#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-transform-runtime": "^7.9.0",
