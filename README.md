@@ -3,3 +3,7 @@
 NuCamp Bootcamp Personal Site
 
 https://admiring-benz-0b0b90.netlify.app
+
+HTML/CSS/JS
+-axios
+-parcel
